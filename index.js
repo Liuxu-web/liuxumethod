@@ -40,3 +40,5 @@ export const throttle = methods.throttle;
 export const debouncing = methods.debouncing;
 //随机颜色
 export const randomColor = methods.randomColor;
+//改变对象键值
+export const changeKey = methods.changeKey;
