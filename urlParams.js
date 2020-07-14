@@ -1,5 +1,5 @@
 /**
- * @msg // url地址参数 转换为对象
+ * @msg // 提取url地址参数 转换为对象
  * @param {url : string}
  * @return {object}
  */

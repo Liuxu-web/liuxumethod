@@ -8,7 +8,7 @@ context.keys().forEach(filename => {
 
 // url地址参数 转换为对象
 export const { urlParams } = methods;
-// 冒泡排序
+// 排序
 export const { bubbleSort } = methods;
 // 数组去重
 export const { deWeight } = methods;
