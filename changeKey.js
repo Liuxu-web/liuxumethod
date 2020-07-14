@@ -6,11 +6,11 @@
 // changeKey(对象或者数组, {修改前的键值 : "要修改成的键值"})
 export function changeKey(arr, keyMap) {
   let temString = JSON.stringify(arr);
-
   for (let key in keyMap) {
-    const reg = new RegExp(`"${key}":`, "g");
+    const reg = new RegExp(`"${key}":`, 'g');
     console.log(reg);
     temString = temString.replace(reg, `"${keyMap[key]}":`);
   }
   return JSON.parse(temString);
 }
+
